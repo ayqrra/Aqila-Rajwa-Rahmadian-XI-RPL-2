@@ -1,0 +1,56 @@
+.all {
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A77979;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:#553939;
+  }
+  
+  .active {
+    background-color:#553939;
+  }
+
+
+.Judul {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.Penjelasan {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 44px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Perbedaan {
+    border-color: black;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
